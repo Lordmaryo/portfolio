@@ -3,11 +3,14 @@ import ReactDOM from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
 import SmoothScroll from "./Components/SmoothScroll.tsx";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <SmoothScroll>
-      <App />
-    </SmoothScroll>
+    <BrowserRouter>
+      <SmoothScroll>
+        <App />
+      </SmoothScroll>
+    </BrowserRouter>
   </React.StrictMode>
 );

@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  color: #dcd2cd;
+  background-color: #0d0d0c;
+}
 
 .anton-sc-regular {
   font-family: "Anton SC", sans-serif;
@@ -10,28 +14,12 @@
   font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #dcd2cd;
-    background-color: #0d0d0c;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/* .transparent-text {
+  color: transparent;
+  -webkit-text-stroke: 1px green;
+} */
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #222222;
-    background-color: #e9e9e9e9;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.nav-font {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 600;
 }
