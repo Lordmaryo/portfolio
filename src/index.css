@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Quicksand:wght@300..700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,12 +8,29 @@
 :root {
   color: #dcd2cd;
   background-color: #0d0d0c;
+  scroll-behavior: smooth;
+  transition: all 0.5;
 }
 
 .anton-sc-regular {
   font-family: "Anton SC", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  transition: transform 0.5s;
 }
 
 /* .transparent-text {
@@ -22,4 +41,23 @@
 .nav-font {
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 600;
+}
+
+.char1 {
+  transform: translateY(115px);
+  transition: transform 0.5s;
+}
+
+.char2 {
+  transform: translateY(115px);
+  transition: transform 0.2s;
+}
+
+#target-2 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+#target-1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  line-height: 5.9rem;
 }

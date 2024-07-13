@@ -28,7 +28,7 @@ const App = () => {
         })
         .to("#intro-slider", {
           yPercent: "-200",
-          duration: 0.5,
+          duration: .8,
           opacity: 0.5,
         });
     }, comp);

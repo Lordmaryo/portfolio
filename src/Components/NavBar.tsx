@@ -15,7 +15,7 @@ const NavBar = () => {
         y: "+=200",
         opacity: 0,
         duration: .5,
-        delay: 3.5,
+        delay: 3.6,
         stagger: 0.1,
       }).to(["#nav-1", "#nav-2", "#nav-3", "#nav-4"], {
         opacity: 1,
