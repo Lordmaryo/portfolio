@@ -80,7 +80,7 @@ const Hero = () => {
       </div>
 
       <div className="flex flex-row justify-between items-center mb-10 md:mt-[7rem]">
-        <div className="invisible sm:visible">難しくなく賢く働く</div>
+        <div className="invisible sm:visible">神は最も偉大だ</div>
         <button className="flex flex-nowrap flex-row items-center gap-4 bg-[#dcd2cd] text-[#000] py-2 px-10">
           <IoIosMail size={20} />
           <span>Send a message</span>
