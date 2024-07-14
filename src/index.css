@@ -31,6 +31,8 @@
   font-weight: 400;
   font-style: normal;
   transition: transform 0.5s;
+  transform: translateY(-40px);
+  line-height: 5.9rem;
 }
 
 /* .transparent-text {
@@ -53,11 +55,26 @@
   transition: transform 0.2s;
 }
 
+#target-1 {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  line-height: 5.9rem;
+}
+
 #target-2 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 
-#target-1 {
+#target-4 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  line-height: 5.9rem;
+}
+
+::selection {
+  background-color: #ffcc00; 
+  color: #000000; 
+}
+
+input::selection,
+textarea::selection {
+  background-color: #ffcc00; 
+  color: #000000; 
 }
