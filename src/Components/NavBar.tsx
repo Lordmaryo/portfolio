@@ -26,8 +26,8 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className="nav-font flex flex-row justify-between p-5 fixed top-0 right-0 left-0 text-sm">
-      <div id="logo-name" className="overflow-hidden">
+    <div className="nav-font overflow-hidden flex flex-row justify-between p-5 fixed top-0 right-0 left-0 text-sm">
+      <div id="logo-name">
         <Link
           to="/"
           className="transition-all duration-300 hover:text-shadow-glow"
@@ -35,7 +35,7 @@ const NavBar = () => {
           <span>Ebube Emmanuel</span>
         </Link>
       </div>
-      <ul className="flex flex-row gap-5 overflow-hidden">
+      <ul className="flex flex-row gap-5 ">
         <li id="nav-1">
           <Link
             to="/"
@@ -54,7 +54,7 @@ const NavBar = () => {
           </Link>
         </li>
       </ul>
-      <ul className="flex flex-row gap-5 overflow-hidden">
+      <ul className="flex flex-row gap-5 ">
         <li id="nav-3">
           <Link
             to=""
