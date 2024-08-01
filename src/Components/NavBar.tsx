@@ -10,13 +10,12 @@ const NavBar = () => {
       t1.from(["#nav-1", "#nav-2", "#nav-3", "#nav-4", "#logo-name"], {
         y: "+=200",
         opacity: 0,
-        duration: 0.5,
+        duration: 0.4,
         delay: 0.5,
-        stagger: 0.1,
+        stagger: 0.01,
       }).to(["#nav-1", "#nav-2", "#nav-3", "#nav-4", "#logo-name"], {
         opacity: 1,
         duration: 0.5,
-        stagger: 0.1,
       });
     });
 

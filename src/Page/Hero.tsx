@@ -64,7 +64,7 @@ const Hero = () => {
               world
             </p>
             <p
-              className="bg-[#dcd2cd] sm:py-4 sm:px-5 text-[#000] inline-block text-lg sm:text-2xl md:text-3xl lg:text-5xl font-semibold"
+              className="oswald-font uppercase bg-[#dcd2cd] sm:py-4 sm:px-5 text-[#000] inline-block text-lg sm:text-2xl md:text-3xl lg:text-5xl font-semibold"
               id="target-3"
             >
               and design interface
