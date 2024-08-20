@@ -1,4 +1,4 @@
-import Hero from "./Page/Hero";
+import Home from "./Page/Home";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Components/NavBar";
 import About from "./Page/About";
@@ -9,8 +9,8 @@ const App = () => {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/info" element={<About />} />
         </Routes>
       </div>
     </>

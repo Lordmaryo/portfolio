@@ -46,7 +46,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="bg-[#000] h-[100vh] pt-40 sm:pt-28 px-5">
+      <div className="bg-[#000] pt-40 sm:pt-28 px-5">
         <div className="text-right">
           <h1
             className="oswald-font text-2xl py-5 uppercase md:text-3xl lg:text-5xl font-bold"

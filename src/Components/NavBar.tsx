@@ -46,7 +46,7 @@ const NavBar = () => {
         </li>
         <li id="nav-2">
           <Link
-            to={"About"}
+            to={"info"}
             className="transition-all duration-300 hover:text-shadow-glow"
           >
             Info
