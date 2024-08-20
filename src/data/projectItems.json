@@ -1,0 +1,26 @@
+[
+  {
+    "id": "01",
+    "applicationName": "Project Name",
+    "imageUrl": "/miles-morales.jpg",
+    "techStacks": ["React", "Tailwind", "SpringBoot"],
+    "projectType": "fullstack Application",
+    "link": "/project01"
+  },
+  {
+    "id": "02",
+    "applicationName": "Project Name",
+    "imageUrl": "/miles-morales.jpg",
+    "techStacks": ["React", "Tailwind", "SpringBoot"],
+    "projectType": "fullstack Application",
+    "link": "/project02"
+  },
+  {
+    "id": "03",
+    "applicationName": "Project Name",
+    "imageUrl": "/miles-morales.jpg",
+    "techStacks": ["React", "Tailwind", "SpringBoot"],
+    "projectType": "fullstack Application",
+    "link": "/project03"
+  }
+]

@@ -5,7 +5,6 @@ import SplitType from "split-type";
 
 const Hero = () => {
   useEffect(() => {
-    // #345b48 dark Green
     const split1 = new SplitType("#target-1", {
       types: "chars",
       charClass: "char1",
@@ -17,7 +16,6 @@ const Hero = () => {
     });
 
     const split3 = new SplitType("#target-3", {
-      // for and design interface
       types: "chars",
       charClass: "char3",
     });
@@ -46,7 +44,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="bg-[#000] pt-40 sm:pt-28 px-5">
+      <div className="pt-40 sm:pt-28 px-5">
         <div className="text-right">
           <h1
             className="oswald-font text-2xl py-5 uppercase md:text-3xl lg:text-5xl font-bold"

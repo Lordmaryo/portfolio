@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  max-width: 1440px;
+  background: #000;
+  margin: auto;
+}
+
 :root {
   color: #dcd2cd;
   background-color: #000;
@@ -70,7 +76,7 @@
 
 ::selection {
   background-color: #ffcc00; 
-  color: #000000; 
+  color: #000000;
 }
 
 input::selection,

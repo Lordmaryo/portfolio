@@ -11,7 +11,7 @@ function SmoothScroll({ children }: SmoothScrollProps) {
       root
       options={{
         lerp: 0.1, 
-        // duration: .5, 
+        duration: .1, 
         easing: (t: number) => 1 - Math.pow(1 - t, 4), 
         infinite: false, 
         touchMultiplier: 2, 
