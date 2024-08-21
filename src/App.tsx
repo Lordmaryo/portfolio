@@ -1,7 +1,8 @@
 import Home from "./Page/Home";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./Components/NavBar";
-import About from "./Page/About";
+import Info from "./Page/Info";
+import ProjectDescription from "./Page/ProjectDescription";
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/info" element={<About />} />
+          <Route path="/info" element={<Info />} />
+          <Route path="/project" element={<ProjectDescription />} />
         </Routes>
       </div>
     </>

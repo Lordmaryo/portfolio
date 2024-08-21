@@ -1,9 +1,12 @@
-import React from 'react'
-
 const ProjectDescription = () => {
   return (
-    <div>Project-description</div>
-  )
-}
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi esse
+      consectetur quisquam illo officiis voluptate aut iste eaque consequuntur,
+      sapiente rem voluptates voluptatem repudiandae aliquid dolor possimus
+      veritatis totam accusamus!
+    </div>
+  );
+};
 
-export default ProjectDescription
+export default ProjectDescription;

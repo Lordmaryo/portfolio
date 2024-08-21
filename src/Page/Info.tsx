@@ -1,11 +1,11 @@
 import gsap from "gsap";
 
-const About = () => {
+const Info = () => {
   return (
     <div className="pt-36 px-10 max-w-7xl">
       <div className="flex flex-row justify-between">
         <h1 className="oswald-font text-8xl w-[30%] text-center uppercase">
-          About me
+          Info me
         </h1>
         <p className="px-5 w-[70%] quicksand-text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, ratione
@@ -21,4 +21,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Info;

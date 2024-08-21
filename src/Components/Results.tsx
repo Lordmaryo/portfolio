@@ -7,7 +7,7 @@ type Resultsprops = {
 const Results = ({ results }: Resultsprops) => {
   return (
     <div className="py-10">
-      <h1 className="oswald-font text-7xl text-center text-[#ffffffe2]">
+      <h1 className="mb-20 oswald-font text-7xl text-center text-[#ffffffe2]">
         Selected Works
       </h1>
       <div>
