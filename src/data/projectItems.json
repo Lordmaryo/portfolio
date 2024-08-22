@@ -5,7 +5,8 @@
     "imageUrl": "/miles-morales.jpg",
     "techStacks": ["React", "Tailwind", "SpringBoot"],
     "projectType": "fullstack Application",
-    "color": "#252525"
+    "color": "#252525",
+    "link": "/project"
   },
   {
     "id": "02",
@@ -13,7 +14,8 @@
     "imageUrl": "/miles-morales.jpg",
     "techStacks": ["React", "Tailwind", "SpringBoot"],
     "projectType": "fullstack Application",
-    "color": "#0064b2"
+    "color": "#0064b2",
+    "link": "/project"
   },
   {
     "id": "03",
@@ -21,6 +23,7 @@
     "imageUrl": "/miles-morales.jpg",
     "techStacks": ["React", "Tailwind", "SpringBoot"],
     "projectType": "fullstack Application",
-    "color": "#0b1c0b"
+    "color": "#0b1c0b",
+    "link": "/project"
   }
 ]

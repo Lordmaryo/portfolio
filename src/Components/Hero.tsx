@@ -7,27 +7,27 @@ const Hero = () => {
   useEffect(() => {
     const split1 = new SplitType("#target-1", {
       types: "chars",
-      charClass: "char1",
+      charClass: "hero-char1",
     });
 
     const split2 = new SplitType("#target-2", {
       types: "chars",
-      charClass: "char2",
+      charClass: "hero-char2",
     });
 
     const split3 = new SplitType("#target-3", {
       types: "chars",
-      charClass: "char3",
+      charClass: "hero-char3",
     });
 
-    gsap.to(".char1", {
+    gsap.to(".hero-char1", {
       y: 0,
       duration: 0.1,
       delay: 0.3,
       stagger: 0.01,
     });
 
-    gsap.to(".char2", {
+    gsap.to(".hero-char2", {
       y: 0,
       duration: 0.3,
       delay: 0.5,

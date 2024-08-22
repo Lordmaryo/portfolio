@@ -12,14 +12,14 @@ export interface projectsDescriptionProps {
 }
 
 export type CardProps = {
-  results: projectsDescriptionProps;
+  projects: projectsDescriptionProps;
 };
 
-const Card = ({ results }: CardProps) => {
+const Card = ({ projects }: CardProps) => {
   return (
-    <div style={{ backgroundColor: results.color }}>
+    <div style={{ backgroundColor: projects.color }}>
       <Link
-        to={results.link}
+        to={projects.link}
         className="flex flex-row justify-between items-center h-screen"
       >
         <div className="ml-10 flex flex-col gap-y-14 w-[500px]">
@@ -29,21 +29,21 @@ const Card = ({ results }: CardProps) => {
           </div>
           <div>
             <div className="divide-x-2 divide-[#dcd2cd]">
-              {results.techStacks
+              {projects.techStacks
                 .map((items) => <span className="px-2">{items}</span>)
                 .slice(0, 3)}
             </div>
-            <h1 className="oswald-font text-6xl">{results.applicationName}</h1>
+            <h1 className="oswald-font text-6xl">{projects.applicationName}</h1>
           </div>
         </div>
         <div className="space-y-2">
           <span className="oswald-font text-8xl text-[#dcd2cd93]">
-            {results.id}
+            {projects.id}
           </span>
           <img
-            src={results.imageUrl}
+            src={projects.imageUrl}
             className="w-[400px]"
-            alt={results.applicationName}
+            alt={projects.applicationName}
           />
         </div>
       </Link>

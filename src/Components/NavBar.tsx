@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const NavBar = () => {
   useLayoutEffect(() => {
-    const gsapContext = gsap.context(() => {
+    const ctx = gsap.context(() => {
       const t1 = gsap.timeline();
       t1.from(["#nav-1", "#nav-2", "#nav-3", "#nav-4", "#logo-name"], {
         y: "+=200",
@@ -20,7 +20,7 @@ const NavBar = () => {
     });
 
     return () => {
-      gsapContext.revert();
+      ctx.revert();
     };
   }, []);
 
