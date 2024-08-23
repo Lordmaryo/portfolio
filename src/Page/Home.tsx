@@ -1,3 +1,4 @@
+import Contact from "../Components/Contact";
 import Hero from "../Components/Hero";
 import Results from "../Components/Projects";
 import WhyHireMe from "../Components/WhyHireMe";
@@ -9,6 +10,7 @@ const Home = () => {
       <Hero />
       <Results projects={ProjectItems} />
       <WhyHireMe />
+      <Contact />
     </div>
   );
 };

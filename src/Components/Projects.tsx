@@ -25,7 +25,7 @@ const Projects = ({ projects }: Projectsprops) => {
       {
         y: 0,
         opacity: 1,
-        duration: 1,
+        duration: .5,
         stagger: 0.02,
         scrollTrigger: {
           trigger: triggerRef.current,
