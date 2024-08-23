@@ -6,6 +6,7 @@ import Footer from "./Components/Footer";
 
 
 // TODO: add navbar to info page 
+// TODO: create and code info page
 const App = () => {
   return (
     <>

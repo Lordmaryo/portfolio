@@ -25,7 +25,7 @@ const Projects = ({ projects }: Projectsprops) => {
       {
         y: 0,
         opacity: 1,
-        duration: .5,
+        duration: 0.5,
         stagger: 0.02,
         scrollTrigger: {
           trigger: triggerRef.current,
@@ -39,13 +39,13 @@ const Projects = ({ projects }: Projectsprops) => {
 
   return (
     <div className="py-10">
-        <h1
-          ref={triggerRef}
-          className="overflow-hidden my-20 oswald-font text-7xl text-center text-[#ffffffe2]"
-          id="text"
-        >
-          Selected Works
-        </h1>
+      <h1
+        ref={triggerRef}
+        className="overflow-hidden my-20 oswald-font text-7xl text-center text-[#ffffffe2]"
+        id="text"
+      >
+        Selected Works
+      </h1>
       <div>
         {projects?.map((result) => (
           <Card key={result.id} projects={result} />
