@@ -5,17 +5,17 @@ import SplitType from "split-type";
 
 const Hero = () => {
   useEffect(() => {
-    const split1 = new SplitType("#target-1", {
+    new SplitType("#target-1", {
       types: "chars",
       charClass: "hero-char1",
     });
 
-    const split2 = new SplitType("#target-2", {
+     new SplitType("#target-2", {
       types: "chars",
       charClass: "hero-char2",
     });
 
-    const split3 = new SplitType("#target-3", {
+    new SplitType("#target-3", {
       types: "chars",
       charClass: "hero-char3",
     });

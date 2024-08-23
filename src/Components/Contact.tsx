@@ -35,7 +35,7 @@ const Contact = () => {
         <h1
           id="contact-header"
           ref={scrollContactRef}
-          className="text-6xl oswald-font"
+          className="text-6xl oswald-font pb-2"
         >
           Contact
         </h1>
@@ -62,7 +62,7 @@ const Contact = () => {
           placeholder="let's work together..."
         ></textarea>
         <button
-          className="flex flex-row items-center justify-center font-bold bg-[#dcd2cd] text-black py-2 gap-2"
+          className="flex flex-row items-center justify-center font-bold bg-[#dcd2cd] text-black py-2 gap-2 hover:rounded-lg transition-all"
           type="submit"
         >
           <span>Send message</span>

@@ -11,7 +11,7 @@ const WhyHireMe = () => {
   useGSAP(() => {
     const spans = scrollRef.current?.querySelectorAll("#span");
 
-    // TODO: create a contact component
+    // TODO: create footer
     // TODO: fix project link
     // TODO: make info page
     // TODO: fix responsiveness

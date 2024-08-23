@@ -1,8 +1,7 @@
-import gsap from "gsap";
 
 const Info = () => {
   return (
-    <div className="pt-36 px-10 max-w-7xl">
+    <div className="pt-36 px-10 mb-20">
       <div className="flex flex-row justify-between">
         <h1 className="oswald-font text-8xl w-[30%] text-center uppercase">
           Info me
