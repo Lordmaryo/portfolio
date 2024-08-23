@@ -1,10 +1,10 @@
-import { useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { FaArrowRight } from "react-icons/fa";
+import { useGSAP } from "@gsap/react";
 
 const NavBar = () => {
-  useLayoutEffect(() => {
+  useGSAP(() => {
     const ctx = gsap.context(() => {
       const t1 = gsap.timeline();
       t1.from(["#nav-1", "#nav-2", "#nav-3", "#nav-4", "#logo-name"], {
@@ -25,7 +25,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className="nav-font overflow-hidden flex flex-row justify-between p-5 fixed top-0 right-0 left-0 text-sm">
+    <div className="backdrop-blur-sm z-10 nav-font overflow-hidden flex flex-row justify-between p-5 fixed top-0 right-0 left-0 text-sm">
       <div id="logo-name">
         <Link
           to="/"

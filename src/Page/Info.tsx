@@ -1,10 +1,8 @@
-import NavBar from "../Components/NavBar";
 import About from "../Info-components/About";
 
 const Info = () => {
   return (
-    <div className="pt-20">
-      <NavBar />
+    <div className="w-full py-20 px-5 sm:px-20 md:px-40">
       <About />
     </div>
   );

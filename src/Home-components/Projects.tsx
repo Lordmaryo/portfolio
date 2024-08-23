@@ -21,12 +21,11 @@ const Projects = ({ projects }: Projectsprops) => {
 
     gsap.fromTo(
       ".char1",
-      { y: 100, opacity: 0 },
+      { y: 100},
       {
         y: 0,
-        opacity: 1,
         duration: 0.5,
-        stagger: 0.02,
+        stagger: 0.01,
         scrollTrigger: {
           trigger: triggerRef.current,
           start: "bottom bottom",
