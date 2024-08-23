@@ -35,7 +35,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="w-[500px]">
-        <h1 className="text-8xl oswald-font">
+        <h1 className="lg:text-6xl md:text-4xl sm:text-2xl oswald-font">
           Emmanuel <br /> ofoneta
         </h1>
       </div>

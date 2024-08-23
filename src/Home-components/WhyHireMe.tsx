@@ -12,8 +12,7 @@ const WhyHireMe = () => {
     const spans = scrollRef.current?.querySelectorAll("#span");
 
     // TODO: fix project link
-    // TODO: make info page
-    // TODO: fix responsiveness
+    // TODO: fix responsiveness (done for info, left with home and project)
     // TODO: create project descriptions page
 
     if (spans)

@@ -41,7 +41,7 @@ const About = () => {
   }, []);
   return (
     <div>
-      <div className="overflow-hidden max-w-[800px] mb-5 md:mb-40 sm:text-lg md:text-xl lg:text-2xl">
+      <div className="overflow-hidden max-w-[800px] mb-5 md:mb-20 sm:text-lg md:text-xl lg:text-2xl">
         <h2 id="about-div-1" className="oswald-font mb-4">
           Info
         </h2>
