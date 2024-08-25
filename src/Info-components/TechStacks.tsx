@@ -30,10 +30,10 @@ const TechStacks = () => {
       );
   }, []);
   return (
-    <div className="h-screen pt-20 md:my-[300px] flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-x-20">
+    <div className="pt-20 md:my-[300px] flex flex-col sm:flex-row sm:justify-between gap-5 sm:gap-x-20">
       <div className="flex flex-row gap-4 sm:h-[80px] md:h-[130px] sm:sticky top-[20%]">
         <div className="h-full bg-[#dcd2cd] w-[2px] sm:block hidden" />
-        <div className="overflow-y-hidden max-w-[500px] oswald-font lg:text-6xl md:text-4xl sm:text-2xl">
+        <div className="overflow-y-hidden max-w-[500px] oswald-font text-xl lg:text-6xl md:text-4xl sm:text-2xl">
           <span id="techStack-span-1">Current</span>{" "}
           <br className="sm:block hidden" />
           <span id="techStack-span-2" className="overflow-clip">

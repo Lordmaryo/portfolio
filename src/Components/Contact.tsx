@@ -30,17 +30,17 @@ const Contact = () => {
 
   // TODO: work on confirmation email to the user
   return (
-    <div className="w-full flex flex-row justify-center items-center h-screen">
+    <div className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center my-20 px-5">
       <div className="w-[500px]">
         <h1
           id="contact-header"
           ref={scrollContactRef}
-          className="text-6xl oswald-font pb-2"
+          className="text-xl lg:text-6xl md:text-4xl sm:text-2xl oswald-font pb-2"
         >
           Contact
         </h1>
         <p className="font-bold pb-4">emmanuelofoneta@gmail.com</p>
-        <h2 className="text-xl oswald-font">
+        <h2 className="md:text-xl oswald-font pb-5">
           Fill the form and i wil get back to you quickly
         </h2>
       </div>
@@ -58,7 +58,7 @@ const Contact = () => {
           />
         </div>
         <textarea
-          className="h-[150px] resize-none bg-transparent px-2 outline-none border-b-2 placeholder:text-[#dcd2cd93] border-[#dcd2cd]"
+          className="h-[150px] w-full resize-none bg-transparent px-2 outline-none border-b-2 placeholder:text-[#dcd2cd93] border-[#dcd2cd]"
           placeholder="let's work together..."
         ></textarea>
         <button

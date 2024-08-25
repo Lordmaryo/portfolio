@@ -35,12 +35,12 @@ const WhyHireMe = () => {
   }, []);
 
   return (
-    <div className="flex flex-row justify-center items-center w-full px-20 h-screen">
-      <aside className="flex flex-row h-[200px] items-center gap-4">
-        <div className="h-full bg-[#dcd2cd] w-1"></div>
+    <div className="my-10 flex flex-row lg:justify-center flex-wrap px-5 md:flex-nowrap items-center w-full">
+      <aside className="sm:w-[50%] flex flex-row md:h-[200px] items-center gap-4">
+        <div className="h-full bg-[#dcd2cd] w-[2px] hidden sm:block"></div>
         <div
           ref={scrollRef}
-          className="w-[500px] overflow-y-hidden text-6xl flex flex-col gap-2 oswald-font"
+          className="space-x-2 mb-4 md:space-x-0 md:flex flex-col gap-2 text-2xl lg:text-6xl md:text-4xl sm:text-2xl oswald-font"
         >
           <span id="span">Why hire</span>
           <span className="overflow-clip" id="span">
@@ -48,7 +48,7 @@ const WhyHireMe = () => {
           </span>
         </div>
       </aside>
-      <div className="w-[500px] space-y-10">
+      <div className="sm:w-[50%] space-y-10">
         <div>
           <h2 className="oswald-font text-[#ffffffb2] text-2xl mb-1">
             Reasons you should get hired

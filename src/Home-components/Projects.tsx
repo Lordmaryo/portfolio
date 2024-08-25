@@ -21,7 +21,7 @@ const Projects = ({ projects }: Projectsprops) => {
 
     gsap.fromTo(
       ".char1",
-      { y: 100},
+      { y: 100 },
       {
         y: 0,
         duration: 0.5,
@@ -40,7 +40,7 @@ const Projects = ({ projects }: Projectsprops) => {
     <div className="py-10">
       <h1
         ref={triggerRef}
-        className="overflow-hidden my-20 oswald-font text-7xl text-center text-[#ffffffe2]"
+        className="overflow-hidden lg:my-20 md:my-14 mb-8 oswald-font text-2xl sm:text-3xl md:text-5xl lg:text-7xl text-center text-[#ffffffe2]"
         id="text"
       >
         Selected Works

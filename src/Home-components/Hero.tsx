@@ -10,11 +10,6 @@ const Hero = () => {
       charClass: "hero-char1",
     });
 
-     new SplitType("#target-2", {
-      types: "chars",
-      charClass: "hero-char2",
-    });
-
     new SplitType("#target-3", {
       types: "chars",
       charClass: "hero-char3",
@@ -27,7 +22,7 @@ const Hero = () => {
       stagger: 0.01,
     });
 
-    gsap.to(".hero-char2", {
+    gsap.to("#target-2", {
       y: 0,
       duration: 0.3,
       delay: 0.5,
@@ -44,25 +39,33 @@ const Hero = () => {
 
   return (
     <>
-      <div className="pt-40 sm:pt-28 px-5">
+      <div className="px-5 md:py-14 sm:px-8 md:px-12">
         <div className="text-right">
-          <h1
-            className="oswald-font text-2xl py-5 uppercase md:text-3xl lg:text-5xl font-bold"
-            id="target-1"
-          >
-            I craft web apps, build secure severs,
-          </h1>
-          <div className="flex flex-row justify-between items-center">
+          <div>
+            <h3 className="md:hidden oswald-font text-[#a19b98] text-left my-1">
+              Emmanuel ofoneta - Fullstack developer
+            </h3>
+            <h1 className="text-left text-xl sm:text-2xl oswald-font md:hidden">
+              I craft web apps, build secure severs, and design interface
+            </h1>
+            <h1
+              className="hidden md:block oswald-font uppercase text-2xl md:text-3xl lg:text-5xl"
+              id="target-1"
+            >
+              I craft web apps, build secure severs,
+            </h1>
+          </div>
+          <div className="hidden md:flex flex-row justify-between items-center">
             <p
-              className="text-sm font-bold w-[400px] text-left ml-5 items-center p-5"
+              className="text-sm font-bold sm:w-[400px] text-left items-center p-5"
               id="target-2"
             >
-              with 2 years experience in web development, i've built projects
-              that solve problems in the digital world.{<br />} Welcome to my
+              With 2 years of experience in web development, I have built
+              projects that address real-world digital challenges. Welcome to my
               world
             </p>
             <p
-              className="oswald-font uppercase bg-[#dcd2cd] sm:py-4 sm:px-5 text-[#000] inline-block text-lg sm:text-2xl md:text-3xl lg:text-5xl font-semibold"
+              className="oswald-font uppercase bg-[#dcd2cd] sm:px-2 sm:py-4 text-[#000] text-lg sm:text-xl md:text-2xl lg:text-5xl font-semibold"
               id="target-3"
             >
               and design interface
@@ -70,7 +73,7 @@ const Hero = () => {
           </div>
           <div className="overflow-hidden">
             <p
-              className="quicksand-font text-lg sm:text-2xl md:text-4xl lg:text-2xl"
+              className="hidden md:block quicksand-font text-lg sm:text-xl md:text-2xl"
               id="target-4"
             >
               FullStack Engineer
@@ -78,9 +81,11 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex flex-row justify-between items-center mb-10 md:mt-[7rem]">
-          <div className="invisible sm:visible">神は最も偉大だ</div>
-          <button className="flex font-bold flex-nowrap transition-all hover:rounded-lg flex-row items-center gap-4 bg-[#dcd2cd] text-[#000] py-2 px-10">
+        <div className="flex flex-row justify-between items-center mt-20 md:mt-[7rem]">
+          <div className="italic text-lg md:xl font-bold w-full sm:w[20%]">
+            Software developer based in Lagos, Nigeria.
+          </div>
+          <button className="hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#dcd2cd] text-[#000] sm:w-[40%] md:w-[30%] lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
             <IoIosMail size={20} />
             <span>Send a message</span>
           </button>

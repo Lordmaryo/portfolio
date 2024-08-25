@@ -6,7 +6,7 @@ import ProjectItems from "../data/projectItems.json";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full py-24">
       <Hero />
       <Results projects={ProjectItems} />
       <WhyHireMe />
