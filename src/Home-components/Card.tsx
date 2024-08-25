@@ -19,7 +19,7 @@ const Card = ({ projects }: CardProps) => {
   return (
     <div style={{ backgroundColor: projects.color }}>
       <Link
-        to={projects.link}
+        to={`/project/${projects.id}`}
         className="p-5 flex flex-row flex-wrap sm:flex-nowrap justify-between items-center sm:h-screen"
       >
         <div className="hidden ml-10 sm:flex flex-col gap-y-14 w-[500px]">
