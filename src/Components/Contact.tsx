@@ -30,7 +30,9 @@ const Contact = () => {
 
   // TODO: work on confirmation email to the user
   return (
-    <div className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center my-20 px-5">
+    <div 
+    id="contact"
+    className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center pt-20 my-20 px-5">
       <div className="w-[500px]">
         <h1
           id="contact-header"

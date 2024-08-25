@@ -85,10 +85,12 @@ const Hero = () => {
           <div className="italic text-lg md:xl font-bold w-full sm:w[20%]">
             Software developer based in Lagos, Nigeria.
           </div>
-          <button className="hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#dcd2cd] text-[#000] sm:w-[40%] md:w-[30%] lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
-            <IoIosMail size={20} />
-            <span>Send a message</span>
-          </button>
+          <a href="#contact">
+            <button className="hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#dcd2cd] text-[#000] sm:w-[40%] md:w-[30%] lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+              <IoIosMail size={20} />
+              <span>Send a message</span>
+            </button>
+          </a>
         </div>
       </div>
     </>
