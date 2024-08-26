@@ -11,7 +11,7 @@ const NavBar = () => {
     const ctx = gsap.context(() => {
       const t1 = gsap.timeline();
       t1.from(["#nav-1", "#nav-2", "#nav-3", "#nav-4", "#logo-name"], {
-        y: "+=200",
+        y: "+=50",
         opacity: 0,
         duration: 0.4,
         delay: 0.5,
@@ -94,7 +94,7 @@ const NavBar = () => {
         className={
           !nav
             ? "hidden"
-            : "flex fixed right-0 top-[80%] p-5 rounded-lg z-10 flex-col min-w-[40%] sm:w-[30%] transition-all bg-[#171717]"
+            : "md:hidden fixed right-0 top-[80%] p-6 rounded-lg z-10 min-w-[40%] sm:w-[30%] transition-all bg-[#171717]"
         }
       >
         <ul className="flex flex-col gap-5">

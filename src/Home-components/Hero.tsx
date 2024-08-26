@@ -15,19 +15,17 @@ const Hero = () => {
       charClass: "hero-char3",
     });
 
+    gsap.set(".hero-char1", {
+      y: 100,
+    });
+
     gsap.to(".hero-char1", {
       y: 0,
-      duration: 0.1,
+      duration: 0.5,
       delay: 0.3,
       stagger: 0.01,
     });
 
-    gsap.to("#target-2", {
-      y: 0,
-      duration: 0.3,
-      delay: 0.5,
-      stagger: 0.001,
-    });
     gsap.to("#target-4", {
       opacity: 1,
       y: "+=40",
@@ -58,7 +56,6 @@ const Hero = () => {
           <div className="hidden md:flex flex-row justify-between items-center">
             <p
               className="text-sm font-bold sm:w-[400px] text-left items-center p-5"
-              id="target-2"
             >
               With 2 years of experience in web development, I have built
               projects that address real-world digital challenges. Welcome to my
