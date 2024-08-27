@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="border-t border-[#dcd2cd5e] text-[#dcd2cd] w-full flex sm:justify-between flex-wrap py-10 sm:py-20 px-5 sm:px-20 items-center gap-4">
+    <div className="border-t border-[#dcd2cd5e] text-[#dcd2cd] w-full flex sm:justify-between flex-wrap py-10 sm:py-20 px-5 sm:px-20 lg:pl-60 items-center gap-4">
       <div>
         <div className="font-bold space-x-4">
           <Link className="hover:text-shadow-glow" to={"/"}>
@@ -35,7 +35,7 @@ const Footer = () => {
         </p>
       </div>
       <div className="w-[500px]">
-        <h1 className="lg:text-6xl md:text-4xl sm:text-2xl oswald-font">
+        <h1 className="lg:text-5xl md:text-4xl sm:text-2xl oswald-font">
           Emmanuel <br className="hidden lg:block" /> ofoneta
         </h1>
       </div>
