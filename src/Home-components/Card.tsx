@@ -1,15 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-
-export interface projectsDescriptionProps {
-  id: string;
-  applicationName: string;
-  imageUrl: string;
-  techStacks: string[];
-  projectType: string;
-  link: string;
-  color: string;
-}
+import { projectsDescriptionProps } from "../App";
 
 export type CardProps = {
   projects: projectsDescriptionProps;
@@ -30,7 +21,11 @@ const Card = ({ projects }: CardProps) => {
           <div>
             <div className="divide-x-2 divide-[#dcd2cd]">
               {projects.techStacks
-                .map((items) => <span className="px-2">{items}</span>)
+                .map((items, index) => (
+                  <span key={index} className="px-2">
+                    {items}
+                  </span>
+                ))
                 .slice(0, 3)}
             </div>
             <h1 className="oswald-font text-3xl md:text-5xl lg:text-6xl">
@@ -47,7 +42,11 @@ const Card = ({ projects }: CardProps) => {
               </h1>
               <div className="-ml-2 divide-x-2 divide-[#dcd2cd]">
                 {projects.techStacks
-                  .map((items) => <span className="px-2">{items}</span>)
+                  .map((items, index) => (
+                    <span key={index} className="px-2">
+                      {items}
+                    </span>
+                  ))
                   .slice(0, 2)}
               </div>
             </div>

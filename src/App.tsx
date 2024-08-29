@@ -7,12 +7,42 @@ import NavBar from "./Components/NavBar";
 import { useEffect, useState } from "react";
 import Loading from "./Conveninces/Loading";
 
+interface Section {
+  docs: string;
+  image: string;
+}
+
+interface LayoutsSection {
+  docs: string;
+  image1: string;
+  image2: string;
+  image3: string;
+}
+
+export interface projectsDescriptionProps {
+  id: string;
+  applicationName: string;
+  imageUrl: string;
+  techStacks: string[];
+  projectType: string;
+  color: string;
+  link: string;
+  githubProject: string;
+  overview: string;
+  layouts: LayoutsSection;
+  development: Section;
+  interactions: Section;
+  complexities: Section;
+  security: Section;
+  learning: Section;
+}
+
 const App = () => {
   const location = useLocation();
   const isProjectDescription = location.pathname.startsWith("/project");
   const [loading, setLoading] = useState(true);
 
-  // Scroll to the top of the page on route change
+  // Scroll to top page on route change
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location.pathname]);
@@ -21,7 +51,7 @@ const App = () => {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 500); 
+    }, 500);
 
     return () => clearTimeout(timer);
   }, [location.pathname]);

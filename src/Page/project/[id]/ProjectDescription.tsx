@@ -1,7 +1,7 @@
 import { useNavigate, useParams } from "react-router-dom";
 import ProjectItems from "../../../data/projectItems.json";
-import { projectsDescriptionProps } from "../../../Home-components/Card";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { projectsDescriptionProps } from "../../../App";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { useGSAP } from "@gsap/react";
@@ -20,9 +20,7 @@ const ProjectDescription = () => {
     (project) => project.id === id
   ) as projectsDescriptionProps;
 
-  // TODO: add more properties in project items json
   // TODO: add icons to tech stacks
-  // TODO: modify loading screen
   useGSAP(() => {
     const ctx = gsap.context(() => {
       const t1 = gsap.timeline();
@@ -153,8 +151,8 @@ const ProjectDescription = () => {
                   Technology used
                 </h2>
                 <ul>
-                  {project.techStacks.map((item) => (
-                    <li>{item}</li>
+                  {project.techStacks.map((item, index) => (
+                    <li key={index}>{item}</li>
                   ))}
                 </ul>
               </div>
@@ -162,13 +160,7 @@ const ProjectDescription = () => {
                 <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                   Overview
                 </h2>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Quidem ducimus quia eligendi maxime? Dignissimos voluptates
-                  quod sint quia quaerat dolore. Eos, blanditiis eius. Odit
-                  iusto aspernatur saepe iure, voluptate eius qui amet natus
-                  quis illum eaque ullam, quas officia veritatis.
-                </p>
+                <p>{project.overview}</p>
               </div>
             </div>
             <div className="pt-5 lg:pt-10" id="layouts">
@@ -178,25 +170,21 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 Keeping it minimal and not losing it's cohesiveness
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, facere odio cupiditate facilis tempore vero. Veritatis
-                ad nostrum consequuntur voluptatem.
-              </p>
+              <p className="mb-4">{project.layouts.docs}</p>
               <div className="space-y-4">
                 <img
                   className="rounded-xl"
-                  src={project.imageUrl}
+                  src={project.layouts.image1}
                   alt="image design"
                 />
                 <img
                   className="rounded-xl"
-                  src={project.imageUrl}
+                  src={project.layouts.image2}
                   alt="image design"
                 />
                 <img
                   className="rounded-xl"
-                  src={project.imageUrl}
+                  src={project.layouts.image3}
                   alt="image design"
                 />
               </div>
@@ -208,17 +196,8 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 The building stage and process
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatum autem adipisci illum? Incidunt officia iste optio
-                similique porro sequi deleniti praesentium vel. Molestias dicta
-                inventore pariatur perspiciatis omnis, sequi eos, deserunt
-                assumenda porro minima incidunt deleniti consectetur
-                exercitationem qui sint eaque similique, magni voluptas facilis.
-                Praesentium aut mollitia repudiandae magni?
-              </p>
+              <p className="mb-4">{project.development.docs}</p>
             </div>
-
             <div className="pt-5 lg:pt-10" id="interaction">
               <h2 className="text-2xl font-light hidden lg:block">
                 Interactions
@@ -226,15 +205,7 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 Seamless user interactions and experiences
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatum autem adipisci illum? Incidunt officia iste optio
-                similique porro sequi deleniti praesentium vel. Molestias dicta
-                inventore pariatur perspiciatis omnis, sequi eos, deserunt
-                assumenda porro minima incidunt deleniti consectetur
-                exercitationem qui sint eaque similique, magni voluptas facilis.
-                Praesentium aut mollitia repudiandae magni?
-              </p>
+              <p className="mb-4">{project.interactions.docs}</p>
             </div>
 
             <div className="pt-5 lg:pt-10" id="complexities">
@@ -244,15 +215,7 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 Bugs, roadblocks and pile of constraints
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatum autem adipisci illum? Incidunt officia iste optio
-                similique porro sequi deleniti praesentium vel. Molestias dicta
-                inventore pariatur perspiciatis omnis, sequi eos, deserunt
-                assumenda porro minima incidunt deleniti consectetur
-                exercitationem qui sint eaque similique, magni voluptas facilis.
-                Praesentium aut mollitia repudiandae magni?
-              </p>
+              <p className="mb-4">{project.complexities.docs}</p>
             </div>
 
             <div className="pt-5 lg:pt-10" id="security">
@@ -262,15 +225,7 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 I mean, it had to be a secure application
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatum autem adipisci illum? Incidunt officia iste optio
-                similique porro sequi deleniti praesentium vel. Molestias dicta
-                inventore pariatur perspiciatis omnis, sequi eos, deserunt
-                assumenda porro minima incidunt deleniti consectetur
-                exercitationem qui sint eaque similique, magni voluptas facilis.
-                Praesentium aut mollitia repudiandae magni?
-              </p>
+              <p className="mb-4">{project.security.docs}</p>
             </div>
 
             <div className="pt-5 lg:pt-10" id="learnings">
@@ -280,15 +235,7 @@ const ProjectDescription = () => {
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
                 Insights and knowledge gained from building the project
               </h2>
-              <p className="mb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptatum autem adipisci illum? Incidunt officia iste optio
-                similique porro sequi deleniti praesentium vel. Molestias dicta
-                inventore pariatur perspiciatis omnis, sequi eos, deserunt
-                assumenda porro minima incidunt deleniti consectetur
-                exercitationem qui sint eaque similique, magni voluptas facilis.
-                Praesentium aut mollitia repudiandae magni?
-              </p>
+              <p className="mb-4">{project.learning.docs}</p>
             </div>
           </div>
         </div>

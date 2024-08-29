@@ -1,9 +1,10 @@
-import Card, { projectsDescriptionProps } from "./Card";
+import Card from "./Card";
 import gsap from "gsap";
 import SplitType from "split-type";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { ScrollTrigger } from "gsap/all";
+import { projectsDescriptionProps } from "../App";
 
 type Projectsprops = {
   projects: projectsDescriptionProps[];
