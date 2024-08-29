@@ -1,7 +1,7 @@
 [
   {
     "id": "01",
-    "applicationName": "Hotel booking app",
+    "applicationName": "Hotel booking",
     "imageUrl": "/miles-morales.jpg",
     "techStacks": [
       "Next js",
@@ -14,8 +14,8 @@
     ],
     "projectType": "fullstack Application",
     "color": "#252525",
-    "link": "www.example.com",
-    "githubProject": "www.github.com/",
+    "link": "https://www.example.com",
+    "githubProject": "https://www.github.com/",
     "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
     "layouts": {
       "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
@@ -46,7 +46,7 @@
   },
   {
     "id": "02",
-    "applicationName": "Book creative community",
+    "applicationName": "Book community",
     "imageUrl": "/miles-morales.jpg",
     "techStacks": [
       "React",
@@ -57,8 +57,8 @@
     ],
     "projectType": "fullstack Application",
     "color": "#0064b2",
-    "link": "www.example.com",
-    "githubProject": "www.github.com/",
+    "link": "https://www.example.com",
+    "githubProject": "https://www.github.com/",
     "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
     "layouts": {
       "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
@@ -89,7 +89,7 @@
   },
   {
     "id": "03",
-    "applicationName": "Project Name",
+    "applicationName": "Crypto Tracker",
     "imageUrl": "/miles-morales.jpg",
     "techStacks": [
       "React",
@@ -100,8 +100,8 @@
     ],
     "projectType": "fullstack Application",
     "color": "#0b1c0b",
-    "link": "www.example.com",
-    "githubProject": "www.github.com/",
+    "link": "https://www.example.com",
+    "githubProject": "https://www.github.com/",
     "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
     "layouts": {
       "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",

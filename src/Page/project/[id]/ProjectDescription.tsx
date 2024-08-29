@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import ProjectItems from "../../../data/projectItems.json";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { projectsDescriptionProps } from "../../../App";
@@ -8,7 +8,6 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const ProjectDescription = () => {
-  // Next button
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
@@ -20,7 +19,6 @@ const ProjectDescription = () => {
     (project) => project.id === id
   ) as projectsDescriptionProps;
 
-  // TODO: add icons to tech stacks
   useGSAP(() => {
     const ctx = gsap.context(() => {
       const t1 = gsap.timeline();
@@ -132,16 +130,22 @@ const ProjectDescription = () => {
           </aside>
           <div className="sm:max-w-[700px] mx-auto w-[900px] lg:mx-auto">
             <div className="flex-wrap sm:flex-nowrap w-full flex items-center justify-center gap-5">
-              <button className="flex items-center justify-center font-bold border md:w-[50%] w-[100%] py-2 hover:bg-[#dcd2cd] hover:text-black transition-all duration-300">
+              <Link
+                className="flex items-center justify-center font-bold border md:w-[50%] w-[100%] py-2 hover:bg-[#dcd2cd] hover:text-black transition-all duration-300"
+                target="_blank"
+                to={project.link}
+              >
                 <span className="mr-2">View project</span>
-                <FaArrowRightLong />
-              </button>
-              <button className="flex items-center justify-center font-bold border md:w-[50%] w-[100%] py-2 text-black bg-[#dcd2cd] hover:bg-[#dcd2cdb2] transition-all duration-300">
+              </Link>
+              <Link
+                to={project.githubProject}
+                target="_blank"
+                className="flex items-center justify-center font-bold border md:w-[50%] w-[100%] py-2 text-black bg-[#dcd2cd] hover:bg-[#dcd2cdb2] transition-all duration-300"
+              >
                 <span className="mr-2">Source code</span>
                 <FaGithub />
-              </button>
+              </Link>
             </div>
-            {/* Technology used and Overview */}
             <div
               id="overview"
               className="flex-wrap sm:flex-nowrap w-full flex gap-5 justify-between mt-5 lg:pt-5"
@@ -223,7 +227,7 @@ const ProjectDescription = () => {
                 Security measures
               </h2>
               <h2 className="mb-2 text-lg md:text-xl lg:text2xl font-bold">
-                I mean, it had to be a secure application
+                Ensuring the application is secure from vulnerabilities
               </h2>
               <p className="mb-4">{project.security.docs}</p>
             </div>

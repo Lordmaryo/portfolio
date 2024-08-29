@@ -30,9 +30,10 @@ const Contact = () => {
 
   // TODO: work on confirmation email to the user
   return (
-    <div 
-    id="contact"
-    className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center pt-20 my-20 px-5">
+    <div
+      id="contact"
+      className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center pt-20 px-5"
+    >
       <div className="w-[500px]">
         <h1
           id="contact-header"
@@ -50,17 +51,17 @@ const Contact = () => {
         <div className="flex justify-between">
           <input
             type="text"
-            className="w-[45%] bg-transparent px-2 outline-none border-b-2 placeholder:text-[#dcd2cd93]  border-[#dcd2cd]"
+            className="w-[45%] bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
             placeholder="fullname"
           />
           <input
-            className="w-[45%] bg-transparent px-2 outline-none border-b-2 placeholder:text-[#dcd2cd93] border-[#dcd2cd]"
+            className="w-[45%] bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
             type="email"
             placeholder="email"
           />
         </div>
         <textarea
-          className="h-[150px] w-full resize-none bg-transparent px-2 outline-none border-b-2 placeholder:text-[#dcd2cd93] border-[#dcd2cd]"
+          className="h-[150px] w-full resize-none bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
           placeholder="let's work together..."
         ></textarea>
         <button

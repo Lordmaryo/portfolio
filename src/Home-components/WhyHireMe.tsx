@@ -18,7 +18,7 @@ const WhyHireMe = () => {
     if (spans)
       gsap.fromTo(
         spans,
-        { y: 120 },
+        { y: 100 },
         {
           y: 0,
           duration: 0.5,
@@ -36,7 +36,7 @@ const WhyHireMe = () => {
 
   return (
     <div className="my-10 flex flex-row lg:justify-center flex-wrap px-5 md:flex-nowrap items-center w-full">
-      <aside className="sm:w-[50%] flex flex-row md:h-[200px] items-center gap-4">
+      <aside className="sm:w-[50%] md:ml-20 flex flex-row md:h-[200px] items-center gap-4">
         <div className="h-full bg-[#dcd2cd] w-[2px] hidden sm:block"></div>
         <div
           ref={scrollRef}
