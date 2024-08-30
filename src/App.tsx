@@ -5,7 +5,7 @@ import ProjectDescription from "./Page/project/[id]/ProjectDescription";
 import Footer from "./Components/Footer";
 import NavBar from "./Components/NavBar";
 import { useEffect, useState } from "react";
-import Loading from "./Conveninces/Loading";
+import Loading from "./Conveniences/Loading";
 
 interface Section {
   docs: string;

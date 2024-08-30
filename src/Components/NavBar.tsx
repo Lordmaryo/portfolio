@@ -40,7 +40,7 @@ const NavBar = () => {
           to="/"
           className="transition-all duration-300 oswald-font hover:text-shadow-glow"
         >
-          <span className="hidden md:block">Ebube Emmanuel</span>
+          <span className="hidden md:block">Emmanuel Ofoneta</span>
           <span className="md:hidden">EO</span>
         </Link>
       </div>
