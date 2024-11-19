@@ -15,32 +15,32 @@
     "color": "#252525",
     "link": "https://talewhirl.vercel.app/",
     "githubProject": "https://github.com/Lordmaryo/Talewhirl",
-    "overview": "A fullstack web application with an engaging book social community where users can read, write, connect with authors and enhance their experience by following their authors and commenting on books.",
+    "overview": "A fullstack web application with an engaging book social community where users can read, write, connect with authors and enhance their experience by following their favorite authors and commenting on books.",
     "layouts": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image1": "/miles-morales.jpg",
-      "image2": "/miles-morales.jpg",
-      "image3": "/miles-morales.jpg"
+      "docs": "In order to design a visually appealing and user-friendly interface for a book social network, it was important to keep in mind that the environment surrounding an activity as focused as reading requires a minimalistic and less distracting approach. A simple, easy to navigate style was essential",
+      "image1": "/public/talewhirl-image2.png",
+      "image2": "/public/talewhirl-image3.png",
+      "image3": "/public/talewhirl-image4.png"
     },
     "development": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
+      "docs": "The development of this project took about a month and a few days to complete. Initially, I was skeptical about whether to use React or Next.js for the frontend. However, I chose Next.js because of the extra features it provides, such as server-side rendering, inbuilt caching, and a simplified coding process, to name a few. For the backend, I used Spring Boot, a Java framework primarily designed for building complex, enterprise level software solutions. Although it presented several constraints during development, the final results were well worth the effort. For data storage, I used PostgreSQL, while Docker's powerful containerization capabilities proved useful throughout the process.",
+      "image": ""
     },
     "interactions": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
+      "docs": "To create a seamless and interactive user experience on Talewhirl, several features were introduced. Users can follow their favorite authors to stay updated on their latest works, creating a personalized and engaging experience. Beyond this, users can actively participate by providing feedback on books they’ve read and rating them on a scale of 1 to 5 stars. These features not only enhance user interaction but also foster a sense of community and involvement, making the platform more dynamic and enjoyable.",
+      "image": ""
     },
     "complexities": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
+      "docs": "During the development of this application, I faced several roadblocks that slowed down progress. One major challenge was resolving bugs related to query search functionality in the database, which required meticulous debugging. Another significant issue was an ambiguous constructor resolver exception on the server, which took considerable time and effort to address. Additionally, the machine I was using encountered technical difficulties, further delaying development. It was running on a hard drive that was missing essential files required for smooth operation. Resolving this issue and restoring the machine to a functional state consumed more time than anticipated. Despite these setbacks, I managed to overcome these hurdles and push forward with the development process.",
+      "image": ""
     },
     "security": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
+      "docs": "To ensure the application is secure and protected from vulnerabilities, a simple yet effective approach was implemented. During the signup process, users are required to provide their email, password, and other relevant details. A six-digit token is automatically generated and sent to the email provided. If the user enters the correct token, they are redirected to a login popup within three seconds, where they can log in to access their newly created account. Additionally, the system archives an auto-generated username on the server, assigning each user a unique identifier during signup. This ensures better security and user management. In the future, more security features will be introduced, such as allowing users to log in using their auto-generated usernames. Plans are also underway to integrate Google authentication to enhance account security further.",
+      "image": ""
     },
     "learning": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
+      "docs": "Building this project taught me many new things. One of the biggest was learning how to create complex search queries that give smooth and accurate results for users. The challenges I faced during development and production helped me understand how to deal with similar problems better in the future, and I’m grateful for finding solutions to them. I also learned the importance of error handling. It’s crucial to track issues that disrupt the program flow so you can figure out where problems come from and fix them quickly. These lessons will definitely come in handy to prevent them in future applications.",
+      "image": ""
     }
   }
 ]

@@ -51,32 +51,34 @@ const WhyHireMe = () => {
       <div className="sm:w-[50%] space-y-10">
         <div>
           <h2 className="oswald-font text-[#ffffffb2] text-2xl mb-1">
-            Reasons you should get hired
+            Ability to Deliver Quality Products
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-            labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-            reprehenderit nihil.
+            I am committed to producing high-quality results ensuring every
+            project meets or exceeds expectations. My attention to detail and
+            dedication ensures that the end product is reliable, polished, and
+            ready for real-world use.
           </p>
         </div>
         <div>
           <h2 className="oswald-font text-[#ffffffb2] text-2xl mb-1">
-            Reasons you should get hired
+            Expertise in Replicating Designs Accurately
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-            labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-            reprehenderit nihil.
+            I have a strong ability to turn designs into working applications.
+            You can rely on me to replicate exactly what was planned, keeping
+            the final product true to the original design.
           </p>
         </div>
         <div>
           <h2 className="oswald-font text-[#ffffffb2] text-2xl mb-1">
-            Reasons you should get hired
+            Strong Communication Skills
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-            labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-            reprehenderit nihil.
+            I prioritize clear and effective communication throughout every
+            stage of a project. This ensures that goals, updates, and challenges
+            are addressed promptly, keeping everyone aligned and ensuring smooth
+            collaboration.
           </p>
         </div>
       </div>

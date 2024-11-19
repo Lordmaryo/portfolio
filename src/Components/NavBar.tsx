@@ -66,14 +66,14 @@ const NavBar = () => {
       {/* socials */}
       <ul className="flex-row gap-5 hidden md:flex">
         <li id="nav-3">
-          <Link
-            to="/pdf/resume.pdf"
+          <a
+            href="/pdf/resume.pdf"
             target="_blank"
             className="flex flex-row gap-2 justify-center items-center transition-all duration-300 hover:text-shadow-glow"
           >
             <span>Resume</span>
             <FaArrowRight className="-rotate-45" />
-          </Link>
+          </a>
         </li>
         <li id="nav-4">
           <Link
@@ -99,14 +99,14 @@ const NavBar = () => {
       >
         <ul className="flex flex-col gap-5">
           <li id="nav-3">
-            <Link
-              to=""
+            <a
+              href="/pdf/resume.pdf"
               target="_blank"
               className="flex flex-row gap-2 justify-center items-center transition-all duration-300 hover:text-shadow-glow"
             >
               <span>Resume</span>
               <FaArrowRight className="-rotate-45" />
-            </Link>
+            </a>
           </li>
           <li id="nav-4">
             <Link
