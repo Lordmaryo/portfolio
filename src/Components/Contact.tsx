@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
 import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { IoIosMail } from "react-icons/io";
 
 gsap.registerPlugin(ScrollTrigger);
 const Contact = () => {
