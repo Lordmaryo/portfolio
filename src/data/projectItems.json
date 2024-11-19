@@ -1,108 +1,21 @@
 [
   {
     "id": "01",
-    "applicationName": "Hotel booking",
-    "imageUrl": "/miles-morales.jpg",
+    "applicationName": "TaleWhirl",
+    "imageUrl": "/talewhirl-image.png",
     "techStacks": [
+      "SpringBoot",
+      "Docker",
       "Next js",
       "Tailwind",
-      "SpringBoot",
       "Typescript",
-      "PostgresSql",
-      "Material ui",
-      "Docker"
+      "PostgresSql"
     ],
     "projectType": "fullstack Application",
     "color": "#252525",
-    "link": "https://www.example.com",
-    "githubProject": "https://www.github.com/",
-    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-    "layouts": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image1": "/miles-morales.jpg",
-      "image2": "/miles-morales.jpg",
-      "image3": "/miles-morales.jpg"
-    },
-    "development": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "interactions": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "complexities": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "security": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "learning": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    }
-  },
-  {
-    "id": "02",
-    "applicationName": "Book community",
-    "imageUrl": "/miles-morales.jpg",
-    "techStacks": [
-      "React",
-      "Tailwind",
-      "SpringBoot",
-      "Typescript",
-      "PostgresSql"
-    ],
-    "projectType": "fullstack Application",
-    "color": "#0064b2",
-    "link": "https://www.example.com",
-    "githubProject": "https://www.github.com/",
-    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-    "layouts": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image1": "/miles-morales.jpg",
-      "image2": "/miles-morales.jpg",
-      "image3": "/miles-morales.jpg"
-    },
-    "development": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "interactions": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "complexities": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "security": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    },
-    "learning": {
-      "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
-      "image": "/miles-morales.jpg"
-    }
-  },
-  {
-    "id": "03",
-    "applicationName": "Crypto Tracker",
-    "imageUrl": "/miles-morales.jpg",
-    "techStacks": [
-      "React",
-      "Tailwind",
-      "SpringBoot",
-      "Typescript",
-      "PostgresSql"
-    ],
-    "projectType": "fullstack Application",
-    "color": "#0b1c0b",
-    "link": "https://www.example.com",
-    "githubProject": "https://www.github.com/",
-    "overview": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
+    "link": "https://talewhirl.vercel.app/",
+    "githubProject": "https://github.com/Lordmaryo/Talewhirl",
+    "overview": "A fullstack web application with an engaging book social community where users can read, write, connect with authors and enhance their experience by following their authors and commenting on books.",
     "layouts": {
       "docs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus quia eligendi maxime? Dignissimos voluptates quod sint quia quaerat dolore. Eos, blanditiis eius. Odit iusto aspernatur saepe iure, voluptate eius qui amet natus quis illum eaque ullam, quas officia veritatis.",
       "image1": "/miles-morales.jpg",

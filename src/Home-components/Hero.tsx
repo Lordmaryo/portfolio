@@ -54,12 +54,9 @@ const Hero = () => {
             </h1>
           </div>
           <div className="hidden md:flex flex-row justify-between items-center">
-            <p
-              className="text-sm font-bold sm:w-[400px] text-left items-center p-5"
-            >
-              With 2 years of experience in web development, I have built
-              projects that address real-world digital challenges. Welcome to my
-              world
+            <p className="text-sm font-bold sm:w-[400px] text-left items-center p-5">
+              With years of experience in web development, I have built projects
+              that address real-world digital challenges. Welcome to my world
             </p>
             <p
               className="oswald-font uppercase bg-[#dcd2cd] sm:px-2 sm:py-4 text-[#000] text-lg sm:text-xl md:text-2xl lg:text-5xl font-semibold"
@@ -83,7 +80,6 @@ const Hero = () => {
             Software developer based in Lagos, Nigeria.
           </div>
           <a
-            // className="sm:w-[40%]"
             href="#contact"
           >
             <button className="sm:px-4 lg:px-0 hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#dcd2cd] text-[#000] sm:w-full md:w-full lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">

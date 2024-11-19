@@ -2,6 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef } from "react";
+import { FaInstagram, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -28,11 +29,10 @@ const Contact = () => {
     );
   }, []);
 
-  // TODO: work on confirmation email to the user
   return (
     <div
       id="contact"
-      className="w-full flex flex-row flex-wrap md:flex-nowrap justify-center items-center pt-20 px-5"
+      className="gap-x-2 w-full flex flex-row md:flex-nowrap justify-center items-center pt-20 px-5"
     >
       <div className="w-[500px]">
         <h1
@@ -42,36 +42,25 @@ const Contact = () => {
         >
           Contact
         </h1>
-        <p className="font-bold pb-4">emmanuelofoneta@gmail.com</p>
-        <h2 className="md:text-xl oswald-font pb-5">
-          Fill the form and i wil get back to you quickly
-        </h2>
+        <p className="font-bold pb-4">eofoneta@gmail.com</p>
       </div>
-      <form className="w-[500px] flex flex-col gap-4 justify-center">
-        <div className="flex justify-between">
-          <input
-            type="text"
-            className="w-[45%] bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
-            placeholder="fullname"
-          />
-          <input
-            className="w-[45%] bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
-            type="email"
-            placeholder="email"
-          />
-        </div>
-        <textarea
-          className="h-[150px] w-full resize-none bg-transparent px-2 outline-none border-b-2 border-[#dcd2cd] placeholder:text-[#dcd2cd93]"
-          placeholder="let's work together..."
-        ></textarea>
-        <button
-          className="flex flex-row items-center justify-center font-bold bg-[#dcd2cd] text-black py-2 gap-2 hover:rounded-lg transition-all"
-          type="submit"
+      <div className="w-[500px] flex flex-row gap-x-4 justify-around">
+        <a href="https://instagram.com/notlordmaryo" 
+        className="hover:text-red-400 transition-colors"
+        target="_blank">
+          <FaInstagram size={30} />
+        </a>
+        <a href="https://x.com/lord_maryo" target="_blank">
+          <FaXTwitter size={30} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ebube-ofoneta-256a5b308/"
+          className="hover:text-blue-400 transition-colors"
+          target="_blank"
         >
-          <span>Send message</span>
-          <IoIosMail size={20} />
-        </button>
-      </form>
+          <FaLinkedin size={30} />
+        </a>
+      </div>
     </div>
   );
 };
