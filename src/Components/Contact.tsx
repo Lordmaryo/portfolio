@@ -53,7 +53,7 @@ const Contact = () => {
           <FaXTwitter size={30} />
         </a>
         <a
-          href="https://www.linkedin.com/in/ebube-ofoneta-256a5b308/"
+          href="https://www.linkedin.com/in/eofoneta"
           className="hover:text-blue-400 transition-colors"
           target="_blank"
         >

@@ -77,7 +77,7 @@ const NavBar = () => {
         </li>
         <li id="nav-4">
           <Link
-            to="https://www.linkedin.com/in/ebube-ofoneta-256a5b308/"
+            to="https://www.linkedin.com/in/eofoneta"
             target="_blank"
             className="flex flex-row gap-2 justify-center items-center transition-all duration-300 hover:text-shadow-glow"
           >
@@ -110,7 +110,7 @@ const NavBar = () => {
           </li>
           <li id="nav-4">
             <Link
-              to="https://www.linkedin.com/in/ebube-ofoneta-256a5b308/"
+              to="https://www.linkedin.com/in/eofoneta"
               target="_blank"
               className="flex flex-row gap-2 justify-center items-center transition-all duration-300 hover:text-shadow-glow"
             >
