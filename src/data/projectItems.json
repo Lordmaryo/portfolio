@@ -18,9 +18,9 @@
     "overview": "A fullstack web application with an engaging book social community where users can read, write, connect with authors and enhance their experience by following their favorite authors and commenting on books.",
     "layouts": {
       "docs": "In order to design a visually appealing and user-friendly interface for a book social network, it was important to keep in mind that the environment surrounding an activity as focused as reading requires a minimalistic and less distracting approach. A simple, easy to navigate style was essential",
-      "image1": "/public/talewhirl-image2.png",
-      "image2": "/public/talewhirl-image3.png",
-      "image3": "/public/talewhirl-image4.png"
+      "image1": "/talewhirl-image2.png",
+      "image2": "/talewhirl-image3.png",
+      "image3": "/talewhirl-image4.png"
     },
     "development": {
       "docs": "The development of this project took about a month and a few days to complete. Initially, I was skeptical about whether to use React or Next.js for the frontend. However, I chose Next.js because of the extra features it provides, such as server-side rendering, inbuilt caching, and a simplified coding process, to name a few. For the backend, I used Spring Boot, a Java framework primarily designed for building complex, enterprise level software solutions. Although it presented several constraints during development, the final results were well worth the effort. For data storage, I used PostgreSQL, while Docker's powerful containerization capabilities proved useful throughout the process.",

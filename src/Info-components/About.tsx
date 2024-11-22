@@ -63,44 +63,49 @@ const About = () => {
         <div id="about-div-3" className="max-w-[500px] space-y-10">
           <div>
             <h2 className="oswald-font sm:text-lg md:text-xl lg:text-2xl oswald-font mb-1">
-              Reasons you should get hired
+              Quick Introduction
             </h2>
             <p className="pb-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-              reprehenderit nihil.
+              My name is Emmanuel Ofoneta, and I’m based in Lagos, Nigeria. I’m
+              a software developer with a passion for building both frontend and
+              backend technologies. My journey in tech has been shaped by a love
+              for learning and solving problems, always striving to improve my
+              skills and grow with every project I take on.
             </p>
-            <img src="/miles-morales.jpg" alt="photo of me" />
+            {/* <img src="/miles-morales.jpg" alt="photo of me" /> */}
           </div>
           <div>
             <h2 className="oswald-font sm:text-lg md:text-xl lg:text-2xl oswald-font mb-1">
-              Reasons you should get hired
+              My Background in Software Development
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-              reprehenderit nihil.
+            <p className="pb-4">
+              I stumbled upon coding during the lockdown, which turned out to be
+              a life changing decision. At first, I began by creating simple
+              frontend websites, which quickly turned into a passion, this
+              realization fueled me to go deeper into programming, and I decided
+              to make it a profession. From those early days of building small
+              personal projects, I transitioned into professional work, learning
+              about the vast potential of technology.
             </p>
+            {/* <img src="/miles-morales.jpg" alt="photo of me" /> */}
           </div>
           <div>
             <h2 className="oswald-font sm:text-lg md:text-xl lg:text-2xl oswald-font mb-1">
-              Reasons you should get hired
+              But I Wanted More...
             </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-              reprehenderit nihil.
+            <p className="pb-4">
+              As I grew in my development journey, I realized I wanted to
+              understand more about how software truly works, especially on the
+              backend. I wasn’t just satisfied with creating websites, I wanted
+              to know how they function under the hood. This led me to go into
+              backend development and the workings of web applications. I
+              learned about server-side technologies, databases, and APIs, and
+              how they all tie into creating seamless and efficient digital
+              experiences. This deeper understanding has allowed me to work on
+              complex systems and build, scalable applications that power modern
+              platforms.
             </p>
-          </div>
-          <div>
-            <h2 className="oswald-font sm:text-lg md:text-xl lg:text-2xl oswald-font mb-1">
-              Reasons you should get hired
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore
-              labore quasi nihil saepe! Quis incidunt ipsum quaerat eos
-              reprehenderit nihil.
-            </p>
+            {/* <img src="/miles-morales.jpg" alt="photo of me" /> */}
           </div>
         </div>
       </div>
