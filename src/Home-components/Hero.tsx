@@ -36,9 +36,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <>
+    <div className="text-white">
       <div className="px-5 md:py-14 sm:px-8 md:px-12">
-        <div className="text-right">
+        <div className="text-right pt-10 sm:p-0">
           <div>
             <h3 className="md:hidden oswald-font text-[#a19b98] text-left my-1">
               Emmanuel ofoneta - Fullstack developer
@@ -59,7 +59,7 @@ const Hero = () => {
               that address real-world digital challenges. Welcome to my world
             </p>
             <p
-              className="oswald-font uppercase bg-[#dcd2cd] sm:px-2 sm:py-4 text-[#000] text-lg sm:text-xl md:text-2xl lg:text-5xl font-semibold"
+              className="oswald-font uppercase bg-[#fff] sm:px-2 sm:py-4 text-[#000] text-lg sm:text-xl md:text-2xl lg:text-5xl font-semibold"
               id="target-3"
             >
               and design interface
@@ -76,20 +76,18 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row justify-between items-center mt-20 md:mt-[7rem]">
-          <div className="italic text-lg md:text-xl font-bold sm:w[20%]">
+          <div className="italic md:text-xl font-bold sm:w[20%]">
             Software developer based in Lagos, Nigeria.
           </div>
-          <a
-            href="#contact"
-          >
-            <button className="sm:px-4 lg:px-0 hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#dcd2cd] text-[#000] sm:w-full md:w-full lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
+          <a href="#contact">
+            <button className="sm:px-4 lg:px-0 hidden sm:flex flex-row flex-nowrap justify-center transition-all rounded-lg font-bold items-center gap-2 bg-[#fff] text-[#000] sm:w-full md:w-full lg:w-[250px] py-2 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#979492] active:translate-x-[0px] active:translate-y-[0px] active:rounded-2xl active:shadow-none">
               <IoIosMail size={20} />
               <span>Send a message</span>
             </button>
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
